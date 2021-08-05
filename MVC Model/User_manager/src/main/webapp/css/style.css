@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button {
+    position: relative;
+    left: 20px;
+}
+
+.row > div:last-child {
+    position: relative;
+    left: 25px;
+    top: 7px;
+}
+
+.table {
+    margin-top: 10px;
+}
+
+.btn-self {
+    text-decoration: none !important;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+
+}
+
+.btn-edit-self {
+    color: #0000ff;
+    border: 1px solid white;
+}
+
+.btn-delete-self {
+    color: #ff0000 !important;
+    border: 1px solid #ff0000;
+}
+
+.btn-delete-self:hover {
+    color: white !important;
+    background-color: #ff0000;
+}
